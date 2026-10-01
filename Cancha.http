@@ -1,13 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+@Cancha_HostAddress = http://localhost:5170
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+GET {{Cancha_HostAddress}}/weatherforecast/
+Accept: application/json
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
-  </ItemGroup>
-
-</Project>
+###
